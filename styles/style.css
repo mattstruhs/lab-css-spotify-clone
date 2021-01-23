@@ -6,3 +6,32 @@ Green: #00B172
 White: #FFF
 
 */
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .logo {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+.nav-bar {
+	background-color: rgb(25,33,41);
+}
+
+.nav-bar ul {
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar a{
+	color: white;
+	font-size: 2em;
+  text-decoration: none;
+}
